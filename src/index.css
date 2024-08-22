@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+h1,
+h2,
+h3,
+.bold {
+  font-family: "Poppins", "sans-serif";
+}
+
+.specialBtn {
+  background: white;
+  box-shadow: 0px 14px 55px 5px rgba(96, 165, 255, 0.35);
+  transition-duration: 200ms;
+}
+
+.specialBtn:hover {
+  opacity: 0.8;
+}
